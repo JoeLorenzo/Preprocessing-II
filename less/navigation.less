@@ -1,1 +1,37 @@
 // Navigation Styles here
+
+header{
+    width: 100%;
+    border-bottom: 2px dashed silver;
+    background-color:white;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+
+    .header-container{
+      display:flex;
+      justify-content:space-between;
+      align-content: center;
+      align-items: center;
+      max-width: 800px;
+      padding:2% 1.5% 0 1.5%;
+      width: 100%;
+      margin: 0 auto;
+      background:@white;
+
+      nav{
+        display: flex;
+        padding:0 1%;
+        width: 40%;
+        max-width:55%;
+        justify-content:space-between;
+
+        a{
+          text-decoration: none;
+          color: @shark;
+        }
+      }
+    }
+
+}
